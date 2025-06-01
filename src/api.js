@@ -1,7 +1,7 @@
 // src/api.js
 import axios from "axios";
 
-const API_BASE = "http://localhost:5670/api";
+const API_BASE = "https://inventory-backend-h0i1.onrender.com/api";
 
 // Product APIs
 export const fetchProducts = () => axios.get(`${API_BASE}/products`);
